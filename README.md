@@ -162,33 +162,4 @@ python -m unittest tests/test_forecasting_pipeline.py
 2. **No Claim of Misconduct:** A consumer complaint represents an unverified issue reported by a consumer. It does not establish legal misconduct or prove regulatory violations by Bank of America.
 3. **Exogenous Shocks:** Statistical and machine learning models forecast baseline behavioral flows. They cannot anticipate unannounced regulatory enforcement actions, public settlements, or severe IT outages without external news inputs.
 
----
 
-## Professional Portfolio Publications
-
-### 📝 LinkedIn Post Draft
-> 🚀 **Excited to share my Week 4 project at AnalystLab Africa Experience Lab: Consumer Complaint Trends & Response Intelligence Platform!**
->
-> 🏛️ For the **Machine Learning Track**, I developed an end-to-end predictive time-series forecasting solution to estimate **Monthly Consumer Complaint Volumes for Bank of America** (using 62,516 CFPB complaint records from 2017 to 2023) to optimize regulatory dispute resolution capacity and maintain statutory 15-day response compliance.
->
-> 🔍 **Key Engineering Highlights:**
-> • **Data Quality & Partial Periods:** Audited boundary periods, identifying August 2023 as a partial month (28 days and reporting pipeline latency), establishing a continuous 75-month modeling series (2017-05 to 2023-07) with zero gaps.
-> • **Leakage-Free Feature Engineering:** Constructed 17 dynamic temporal features (lags 1–12, rolling 3m/6m/12m moving averages and standard deviations, cyclical month encodings, and secular trend indices) strictly avoiding future lookahead bias.
-> • **Rigorous Dual Validation:** Benchmarked across a 2023 out-of-sample holdout test set and expanding-window rolling-origin cross-validation across 17 distinct historical origins.
-> • **Quantitative Results:** The champion **Random Forest Regressor** achieved a **12.08% WAPE** and **145.17 MAE**, delivering a **26.4% error reduction** over the Seasonal Naive baseline. Statistical challenger **SARIMAX** achieved the lowest RMSE (220.98) and a positive test $R^2$ (0.102).
-> • **Root-Cause Anomaly Analysis:** Diagnosed the July 2023 volume spike (1,749 complaints), linking it directly to nationwide CFPB regulatory penalty announcements.
-> • **Production-Ready Packaging:** Serialized champion models with multi-step recursive forecasting, 80%/95% prediction intervals, automated unit tests (100% passing), and CLI inference.
->
-> Grateful to the mentors and community at **AnalystLab Africa** for reinforcing professional standards in financial data engineering!
->
-> #AnalystLabAfrica #MachineLearning #TimeTimeSeriesForecasting #FinancialAnalytics #DataScience #Python #CFPB #MLOps
-
-### 🐦 X (Twitter) Post Draft
-> Just completed Week 4 of the @analystlabafric Internship (Machine Learning Track)! 📈🏛️
-> 
-> Built a monthly consumer complaint volume forecasting prototype for Bank of America:
-> 📊 12.08% WAPE (26.4% error reduction over baseline)
-> 🎯 SARIMAX & Random Forest recursive forecasting
-> 🛡️ 17-origin rolling cross-validation & Ljung-Box white noise verified
-> 
-> #AnalystLabAfrica
