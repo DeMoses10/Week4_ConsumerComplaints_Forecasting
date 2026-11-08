@@ -1,0 +1,5 @@
+Product,Actual Mean (Test),Forecast MAE,Forecast RMSE,Forecast WAPE (%),Forecast sMAPE (%)
+Checking or savings account,540.6,131.66,192.34,24.36,24.7
+Credit card or prepaid card,314.4,46.78,81.31,14.88,13.66
+"Credit reporting, credit repair services, or other personal consumer reports",170.7,20.41,26.23,11.96,12.47
+Mortgage,46.1,55.96,58.13,121.28,75.99

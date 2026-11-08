@@ -1,0 +1,9 @@
+Model,CV MAE,CV RMSE,CV WAPE (%),CV MAPE (%),CV sMAPE (%),CV R2,Evaluated Origins
+Naive (Persistence),96.04,120.49,9.75,9.53,9.9,0.2462,17
+3-Month Moving Average,100.6,125.33,10.21,10.07,10.63,0.1845,17
+Random Forest Regressor,104.81,139.22,10.64,10.6,11.44,-0.0064,17
+Holt-Winters ExpSmoothing,130.98,164.3,13.3,13.44,13.87,-0.4015,17
+"SARIMAX (1,1,1)x(1,1,0)_12",136.53,170.57,13.86,14.1,14.72,-0.5105,17
+Seasonal Naive,167.61,208.14,17.01,16.66,19.1,-1.2493,17
+HistGradientBoosting,191.37,217.06,19.43,19.3,22.03,-1.4461,17
+Ridge Regressor (L2),325.83,1164.39,33.07,37.64,19.12,-69.392,17
